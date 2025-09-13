@@ -1,0 +1,15 @@
+tqdm
+numpy
+hdbscan
+matplotlib
+umap-learn
+requests
+sentence-transformers
+# transformers
+
+# openpyxl
+# pandas
+# scikit-learn
+# pydot
+# networkx
+# graphviz

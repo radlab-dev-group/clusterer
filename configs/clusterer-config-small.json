@@ -1,0 +1,50 @@
+{
+  "clusterer": {
+    "device": "cuda",
+    "embedder_path": "/mnt/data2/llms/models/radlab-priv/article-embedder/article-bi-encoder-20240901",
+    "embedder_input_size": 512,
+    "method": "hdbscan",
+    "reduction": "tsne",
+    "reducer_optim": "barnes_hut",
+    "reducer_sim_metric": "cosine",
+    "reducer_sim_metric_2": "euclidean",
+    "use_reduced_dataset": true,
+    "clustering_params": [
+      {
+        "min_samples": 1,
+        "min_cluster_size": 30,
+        "metric": "euclidean"
+      },
+      {
+        "min_samples": 1,
+        "min_cluster_size": 32,
+        "metric": "euclidean"
+      },
+      {
+        "min_samples": 1,
+        "min_cluster_size": 34,
+        "metric": "euclidean"
+      },
+      {
+        "min_samples": 1,
+        "min_cluster_size": 36,
+        "metric": "euclidean"
+      },
+      {
+        "min_samples": 1,
+        "min_cluster_size": 38,
+        "metric": "euclidean"
+      },
+      {
+        "min_samples": 1,
+        "min_cluster_size": 40,
+        "metric": "euclidean"
+      },
+      {
+        "min_samples": 1,
+        "min_cluster_size": 60,
+        "metric": "euclidean"
+      }
+    ]
+  }
+}
